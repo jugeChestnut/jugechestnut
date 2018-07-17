@@ -1,0 +1,163 @@
+body{
+	margin: 0 auto;
+	background-color: #f4f4f4;
+}
+
+:focus {
+    outline: none;
+}
+
+#top {
+	height: 86px;
+	width: 990px;
+	margin: 0 auto;
+	line-height: 86px;
+	background-color: #fff;
+}
+
+#top img {
+	vertical-align: middle;
+}
+
+#top h1{
+	display: inline;
+	font-size: 24px;
+	color: #666;
+	font-weight: normal;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+#body {
+	background-color: #e93854;
+}
+
+#main {
+	width: 990px;
+	height: 475px;
+	background-image: url(JD/banner.png);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+
+#form_box {
+	width: 306px;
+	padding: 20px;
+	background-color: #fff;
+	position: absolute;
+	top: 40px;
+	right: 80px;
+}
+
+#form_box h2 {
+	font-size: 24px;
+	color: #666;
+	font-weight: normal;
+	margin: 0 0 16px;
+}
+
+#form_box h2 a {
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+	color: #b61d1d;
+	background-image: url(JD/login-icons.png);
+	background-repeat: no-repeat;
+	background-position: -104px -75px;
+	padding-left: 20px;
+	margin: auto 0;
+}
+
+.from_field1, .from_field2{
+	width: 304px;
+	height: 38px;
+	border: 1px solid #bdbdbd;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.from_field1 label, .from_field2 label{
+	width: 38px;
+	height: 38px;
+	background-image: url(JD/login-icons.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 1px solid #bdbdbd;
+}
+
+.from_field2 label {
+	background-position: -48px 0;
+}
+
+.from_field1 input, .from_field2 input{
+	width: 254px;
+	height: 38px;
+	border: none;
+	padding:0 0 0 50px;
+}
+
+.from-field3  {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.from-field3 input {
+	vertical-align: middle;
+}
+
+.from-field3 a {
+	float: right;
+	color: #666;
+	text-decoration: none;
+}
+
+.from-field3 a:hover {
+	color: #b61d1d;
+}
+
+.from-field4 {
+    text-align: center;  
+}
+
+.from-field4 input {
+	width: 302px;
+	height: 36px;
+	background-color: #e4393c;
+	color: #fff;
+	font-size: 18px;
+	border: none;
+}
+
+#bottom {
+	width: 990px;
+	height: 80px;
+	background-color: #fff;
+	margin: 0 auto;
+	color: #666;
+	font-size: 12px;
+	text-align: center;
+}
+
+#bottom ul {
+	margin: 0;
+	padding: 20px 0 0;
+	list-style-type:none;
+}
+
+#bottom ul li {
+	display: inline;
+	padding: 0 4px;
+}
+
+#bottom ul li a {
+	text-decoration: none;
+	color: #666;
+}
+
+#bottom ul li a:hover {
+	color: red
+}
